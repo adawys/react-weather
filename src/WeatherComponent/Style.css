@@ -1,0 +1,107 @@
+.block {
+    display: block !important;
+}
+
+.background {
+    padding-bottom: 2%;
+    background-size: cover;
+    background-position: center ;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+}
+/* .bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s; */
+
+.container-padding {
+    margin-bottom: 0% !important; 
+    padding-top: 5% !important;
+    
+}
+h1 {
+    margin: auto !important;
+}
+.grid-padding{
+    padding-bottom: 100%;
+}
+/* .zzz {
+    height: 100px;
+    width: 100px;
+    padding-block: 100%;
+} */
+.resize {
+    transform: scale(2.5) !important;
+}
+.neon {
+    color: rgb(6, 2, 7);
+    text-shadow: 0 0 5px rgb(6, 2, 7), 0 0 10px rgb(6, 2, 7),
+            0 0 20px rgb(6, 2, 7), 0 0 30px rgb(6, 2, 7),
+            0 0 40px rgb(6, 2, 7);
+ }
+
+.fa-ul {
+    display: contents;
+}
+.card {
+    background-color: rgba(170, 440, 90, 0.3);
+    border-radius: 20%;
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        
+        bottom: 0;
+        
+       
+        
+    }
+}
+@media screen and (min-width: 1024px) {
+    .fa-temperature-low:hover {
+        color: blue;
+    }
+    .fa-temperature-high:hover {
+       color: red;
+   }
+   .fa-thermometer-half:hover {
+       color: red;
+   }
+   .facebook-square:hover {
+       color:blue
+   }
+   .fa-instagram:hover {
+       color:blueviolet
+   }
+   .fa-twitter-square:hover {
+       color:blue
+   }
+   .fa-linkedin:hover {
+       color:blue
+   }
+   .fa-chart-line:hover {
+   color:goldenrod;
+   }
+   .fa-water:hover {
+       color:blue;
+   }
+   .fa-wind:hover {
+       color:blueviolet;
+   }
+   .fa-map-marker-alt:hover {
+       color: red;
+   }
+}
