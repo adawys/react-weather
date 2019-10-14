@@ -18,7 +18,7 @@ const ViewWeather = props => {
   } = props.weather;
 
   let content = null;
-  let iconWether = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  let iconWether = `https://openweathermap.org/img/wn/${icon}@2x.png`;
   let imageText = `${description}`;
   if (!error && name) {
     content = (
