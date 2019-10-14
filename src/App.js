@@ -40,7 +40,7 @@ class App extends Component {
     this.setState({
       isLoading: true,
     })
-    const CityApiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${IdWeather}&units=metric`;
+    const CityApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${IdWeather}&units=metric`;
     axios.get(CityApiUrl)
         .then(({data}) => {
           this.setState(weatherState => ({
